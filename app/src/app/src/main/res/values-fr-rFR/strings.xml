@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="generate">Générer produit</string>
+    <string name="scan">Scanner Produit</string>
+    <string name="product_name_label">Nom de Produit:</string>
+    <string name="product_name">Entrer nom de produit</string>
+    <string name="product_price_label">Prix de produit:</string>
+    <string name="product_price">Entrer prix de produit</string>
+    <string name="generate_qr_code">Générer QR Code</string>
+    <string name="download_qr_code">Télécharger QR Code</string>
+    <string name="choose_option">Choisir une option de scan:</string>
+    <string name="option1">Scanner avec galerie</string>
+    <string name="option2">Scanner avec caméra</string>
+    <string name="scan_qr">Scanner QR code</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+<TextView
+    android:id="@+id/product_name_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/product_name_label"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/product_name"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="8dp"
+    android:backgroundTint="@color/black"
+    android:hint="@string/product_name"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:id="@+id/product_price_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/product_price_label"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/product_price"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="8dp"
+    android:hint="@string/product_price"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/black"
+    android:inputType="numberDecimal"/>
+
+<Button
+    android:id="@+id/generate_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/generate_qr_code"
+    android:background="@drawable/button_bg"/>
+
+        <ImageView
+            android:id="@+id/qr_code_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+
+        <Button
+    android:id="@+id/download_btn"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="10dp"
+    android:text="@string/download_qr_code"
+            android:background="@drawable/button_bg"
+    android:visibility="gone"
+    />
+    </LinearLayout>
+</RelativeLayout>
